@@ -1,0 +1,29 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  plate: MyString
+  mileage: 1.5
+  capacity: 1
+  mark: MyString
+  year: 1
+  color: MyString
+  motor: MyString
+  description: MyText
+  gasoline: 1.5
+  transmision: false
+  trunk: false
+  door: 1
+
+two:
+  plate: MyString
+  mileage: 1.5
+  capacity: 1
+  mark: MyString
+  year: 1
+  color: MyString
+  motor: MyString
+  description: MyText
+  gasoline: 1.5
+  transmision: false
+  trunk: false
+  door: 1

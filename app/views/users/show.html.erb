@@ -1,0 +1,42 @@
+<p>
+  <strong>Name:</strong>
+  <%= @user.name %>
+</p>
+
+<p>
+  <strong>Lastname:</strong>
+  <%= @user.lastname %>
+</p>
+
+<p>
+  <strong>Address:</strong>
+  <%= @user.address %>
+</p>
+
+<p>
+  <strong>Phone:</strong>
+  <%= @user.phone %>
+</p>
+
+<p>
+  <strong>Cellphone:</strong>
+  <%= @user.cellphone %>
+</p>
+
+<p>
+  <strong>Born date:</strong>
+  <%= @user.born_date %>
+</p>
+
+<p>
+  <strong>Identification:</strong>
+  <%= @user.identification %>
+</p>
+
+<p>
+  <strong>Is admin:</strong>
+  <%= @user.is_admin %>
+</p>
+
+<%= link_to 'Edit', edit_user_path(@user) %> |
+<%= link_to 'Back', users_path %>
